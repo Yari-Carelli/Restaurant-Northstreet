@@ -1,0 +1,38 @@
+html, body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: none;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+hr {
+    border-color: #ffc266;
+    border-width: 5px;
+    max-width: 100%;
+}
