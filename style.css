@@ -331,3 +331,100 @@ p.first::first-letter {
     -ms-transform: translateY(0);
     transform: translateY(0);
 }
+
+.bg-menu {
+    margin: auto 50px;
+}
+
+#menu .nav-pills {
+    background-color: #182c39;
+    border-color: transparent;
+    font-weight: 500;
+    color: #000;
+    margin: 25px;
+}
+
+#menu .nav-pills > li > a,
+#menu .nav-pills > li > a:focus {
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 0;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#menu .nav-pills > li > a:hover,
+#menu .nav-pills > li > a:focus:hover {
+    color: #fff;
+    background-color: #944743;
+}
+
+#menu .nav-pills > li > a.active,
+#menu .nav-pills > li  > a.active:focus {
+    background-color: #944743;
+    color: #fff;
+}
+
+
+
+
+#menu .hr-menu {
+    border: 2px solid #182c39;
+    width: 100%;
+}
+
+#menu .list-group-item {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #555;
+    padding: 0 auto;
+}
+
+#menu .tab-content  .tab-pane  h3 {
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+}
+
+#menu .list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#menu .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#menu .list-group-item  h4 {
+    text-align: left;
+    color: #182c39;
+    text-transform: none;
+    font-size: 18px;
+}
+
+#menu .list-group-item  p {
+    text-align: left;
+    color: #555555;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: none;
+    font-size: 14px;
+}
+
+#menu .badge {
+    border-radius: 0;
+    background-color: #444;
+    font-size: 12px;
+    color: #fff;
+}
+
+#menu .right-cover {
+    background-color: #fff;
+    color: #DC4C46;
+    text-shadow: #DC4C46 .4em .4em .4em;
+    padding: 10px;
+    text-transform: none;
+}
