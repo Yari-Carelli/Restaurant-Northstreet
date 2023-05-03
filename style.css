@@ -36,3 +36,59 @@ hr {
     border-width: 5px;
     max-width: 100%;
 }
+
+.container-h1 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 50px auto;
+    color: #333;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.btn {
+    color: #fff;
+    background-color: #182c39;
+    margin: 20px auto;
+    border-radius: 0;
+    font-weight: 500;
+    display: table;
+    padding: 10px;
+
+    
+}
+
+.btn:hover{
+    color: #182c39;
+    background-color: transparent;
+    border: 1px solid #182c39;
+}
+
+
+.hr-h3s {
+    border: 3px solid #E94B3C;
+    width: 70px;
+    margin: 0 auto 35px auto;
+}
+
+
+textarea {
+    resize: none;
+}
+
+section {
+    align-items: center;
+    padding: 50px 60px;
+    
+}
+.bg-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+    color: #ffc266;
+    background-color: #182c39;
+    margin: 50px 0;
+    padding: 25px 20px;
+    border-radius: 50px;
+}
