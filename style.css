@@ -428,3 +428,41 @@ p.first::first-letter {
     padding: 10px;
     text-transform: none;
 }
+
+/* ******* Service ******* */
+
+
+#service .service-round {
+    height: 100px;
+    width: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 8px solid #182c39;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    color: #182c39;
+}
+
+#service .service-round  i {
+    color: #182c39;
+    
+}
+
+#service h4 {
+    margin: 10px auto;
+    font-size: 20px;
+    color: #555;
+}
+
+#service .round:hover .fa {
+    color: #ffc266;
+    transition: color 2s;
+    
+}
+
+#service .round:hover .service-round {
+    border-color: #ffc266;
+    transition: border-color 2s;
+}
