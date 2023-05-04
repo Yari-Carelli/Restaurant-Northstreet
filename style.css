@@ -551,3 +551,89 @@ p.first::first-letter {
 #gallery .more-img .social-networks .fa:hover {
     color: #ffc266;
 }
+
+/* ******* Our staff ******* */
+
+
+
+#staff .thumbnail-row {
+    margin: auto 60px;
+}
+
+#staff h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: none;
+    color: #182c39;
+    margin: 50px auto 10px auto;
+}
+
+#staff img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+#staff  h5 {
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#staff  h6 {
+    color: #555;
+    font-size: 16px;
+}
+
+#staff img:hover {
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.9);
+    transition: .3s;
+}
+
+
+
+/* ******* Testimonials ******* */
+#testimonials .hr-testimonials {
+    border: 1px solid #182c39;
+    width: 50%;
+    margin: 0 auto 35px auto;
+}
+
+#testimonials h3 {
+    color: #182c39;
+    margin: 40px auto;
+}
+
+#testimonials .carousel {
+    float: none;
+      margin: auto;
+}
+
+
+#testimonials .carousel-indicators li {
+    border: 2px solid #182c39;
+    background-color: #fff;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+#testimonials .carousel-indicators li.active {
+    border-color: #fff;
+    background-color: #182c39;
+}
+
+
+
+#testimonials .carousel-item h4 {
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+#testimonials .carousel-item h5 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    font-style: italic;
+}
