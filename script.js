@@ -18,3 +18,15 @@ $(function(){
     win.scroll();
 
 });
+
+
+/* ***** Btn More-Less ***** */
+$("#more").click(function(){
+    var $this = $(this);
+    $this.toggleClass('more');
+    if($this.hasClass('more')){
+        $this.text('More');         
+    } else {
+        $this.text('Less');
+    }
+});
